@@ -72,7 +72,7 @@
         }
 
         #main {
-            width: 100%;
+            width: 70%;
             margin: 0 auto;
             font-size: 14px;
         }
@@ -195,7 +195,7 @@
 <header class="am-header">
     <h1>支付宝电脑网站支付体验入口页</h1>
 </header>
-<div id="main">
+<div id="main" >
     <div id="tabhead" class="tab-head">
         <h2 id="tab1" class="selected" name="tab">付 款</h2>
         <h2 id="tab2" name="tab">交 易 查 询</h2>
@@ -355,8 +355,8 @@
         </div>
     </form>
     <div id="foot">
-        <ul class="foot-ul">
-            <li>支付宝版权所有 2015-2018 ALIPAY.COM</li>
+        <ul class="foot-ul" >
+            <li >支付宝版权所有 2015-2018 ALIPAY.COM</li>
         </ul>
     </div>
 </div>

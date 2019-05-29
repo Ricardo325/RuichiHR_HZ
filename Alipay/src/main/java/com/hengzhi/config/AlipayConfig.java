@@ -6,7 +6,7 @@ public class AlipayConfig {
     // 服务器异步通知页面路径  需http://格式的完整路径，不能加?id=123这类自定义参数，必须外网可以正常访问
     public static String notify_url = "http://localhost:8080/notify";
     // 应用ID,您的APPID，收款账号既是您的APPID对应支付宝账号
-    public static String app_id = "2016092900624909";
+    public static String app_id = "2016092900624909"; //这是沙箱id，睿驰id为2019052765380563
     // 支付宝公钥,查看地址：https://openhome.alipay.com/platform/keyManage.htm 对应APPID下的支付宝公钥。
     public static String alipay_public_key = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgl4rG0hVnuzCSzEnTcpC+BQLt1WMNSOvTEK6S/n2pgrCShmDswj789V0jG2kHJT3N0rBnm5EHLUGrbeI4HjGsFSULMf0/z7FuuQEYS2ddvnT6YILpDqcMmXq43K+F59PS313RP5g9jm4PUENSAneqB7qnD8ds/MngmkDXyOKz3pRBBPl6JoVV00318P2hdpMLjqhcBZ1uxnmRIOIem9QcN4mkgYEcgIkdPcdq45yLHueA8O6uPYd1wah+eIZ7uJykPQN//M8tL9K/joKoGrrrsZDER9STXc1rK6DOXlF++gm+IrkevoO6XrEI7w9BCH/rUnhVRaHj+ZMAbsp+YFqCQIDAQAB";
     // 商户私钥，您的PKCS8格式RSA2私钥
@@ -15,6 +15,6 @@ public class AlipayConfig {
     public static String sign_type = "RSA2";
     // 字符编码格式
     public static String charset = "utf-8";
-    // 支付宝网关
+    // 支付宝网关，这是沙箱版网关，正式版没有dev
     public static String gatewayUrl = "https://openapi.alipaydev.com/gateway.do";
 }
